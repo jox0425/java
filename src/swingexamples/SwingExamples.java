@@ -27,6 +27,9 @@ public class SwingExamples {
         //Golyok2 g = new Golyok2();
         //Nyelvek ny = new Nyelvek();
         //SzinekFrame szf = new SzinekFrame();
-        Mondat m = new Mondat();
+        //Mondat m = new Mondat();
+        //TextFieldTest tf = new TextFieldTest();
+        //MeggyNarancs mn = new MeggyNarancs();
+        SzovegStilus sz = new SzovegStilus();
     }
 }
