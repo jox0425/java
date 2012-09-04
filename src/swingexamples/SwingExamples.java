@@ -30,6 +30,8 @@ public class SwingExamples {
         //Mondat m = new Mondat();
         //TextFieldTest tf = new TextFieldTest();
         //MeggyNarancs mn = new MeggyNarancs();
-        SzovegStilus sz = new SzovegStilus();
+        //SzovegStilus sz = new SzovegStilus();
+        //Muveletek m = new Muveletek();
+        Szovegek sz = new Szovegek();
     }
 }
