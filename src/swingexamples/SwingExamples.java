@@ -32,6 +32,9 @@ public class SwingExamples {
         //MeggyNarancs mn = new MeggyNarancs();
         //SzovegStilus sz = new SzovegStilus();
         //Muveletek m = new Muveletek();
-        Szovegek sz = new Szovegek();
+        //Szovegek sz = new Szovegek();
+        //TukorSzoveg ts = new TukorSzoveg();
+        //KarbantartFrame kf = new KarbantartFrame();
+        ItalKeveres ik = new ItalKeveres();
     }
 }
