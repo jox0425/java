@@ -35,6 +35,17 @@ public class SwingExamples {
         //Szovegek sz = new Szovegek();
         //TukorSzoveg ts = new TukorSzoveg();
         //KarbantartFrame kf = new KarbantartFrame();
-        ItalKeveres ik = new ItalKeveres();
+        //ItalKeveres ik = new ItalKeveres();
+        //Olvasmanyok o = new Olvasmanyok();
+        //Szinkeveres sz = new Szinkeveres();
+        //MenuFrame mf = new MenuFrame("Menü próba");
+        //JatekMenu jm = new JatekMenu();
+        //TestFrame tf = new TestFrame();
+        //ColorChooserTest cct = new ColorChooserTest();
+        //OszintesegProba op = new OszintesegProba();
+        //StopperApp sa = new StopperApp();
+        //Villogas v = new Villogas();
+        //UgraloGomb ug = new UgraloGomb();
+        FenyujsagFrame ff = new FenyujsagFrame();
     }
 }
