@@ -33,9 +33,9 @@ class Szinkeveres extends JFrame
 
         JLabel label;
 
-        red = 41;
-        green = 170;
-        blue = 0;
+        red = 255;
+        green = 164;
+        blue = 235;
 
         cp.add(lbInfo = new JLabel("Color(" + red + "," + green + "," + blue + ")", JLabel.CENTER), "North");
         cp.add(taBackground = new JTextArea(15, 30), "Center");
@@ -45,18 +45,18 @@ class Szinkeveres extends JFrame
         //Scrollbar red
         pnControlPanel.add(label = new JLabel("Red:"));
         label.setVerticalAlignment(JLabel.CENTER);
-        pnControlPanel.add(sbRed = new JScrollBar(JScrollBar.VERTICAL, red, 5, 0, 255 + 5));
+        pnControlPanel.add(sbRed = new JScrollBar(JScrollBar.VERTICAL, red, 20, 0, 255 + 20));
         sbRed.addAdjustmentListener(this);
         
         //Scrollbar green
         pnControlPanel.add(label = new JLabel("Green:"));
         label.setVerticalAlignment(JLabel.CENTER);
-        pnControlPanel.add(sbGreen = new JScrollBar(JScrollBar.VERTICAL, green, 5, 0, 255 + 5));
+        pnControlPanel.add(sbGreen = new JScrollBar(JScrollBar.VERTICAL, green, 20, 0, 255 + 20));
         sbGreen.addAdjustmentListener(this);
         //Scrollbar blue
         pnControlPanel.add(label = new JLabel("Blue:"));
         label.setVerticalAlignment(JLabel.CENTER);
-        pnControlPanel.add(sbBlue = new JScrollBar(JScrollBar.VERTICAL, blue, 5, 0, 255 + 5));
+        pnControlPanel.add(sbBlue = new JScrollBar(JScrollBar.VERTICAL, blue, 20, 0, 255 + 20));
         sbBlue.addAdjustmentListener(this);
 
         cp.add(pnControlPanel, "South");

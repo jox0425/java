@@ -37,7 +37,7 @@ public class SwingExamples {
         //KarbantartFrame kf = new KarbantartFrame();
         //ItalKeveres ik = new ItalKeveres();
         //Olvasmanyok o = new Olvasmanyok();
-        //Szinkeveres sz = new Szinkeveres();
+        Szinkeveres sz = new Szinkeveres();
         //MenuFrame mf = new MenuFrame("Menü próba");
         //JatekMenu jm = new JatekMenu();
         //TestFrame tf = new TestFrame();
@@ -46,6 +46,6 @@ public class SwingExamples {
         //StopperApp sa = new StopperApp();
         //Villogas v = new Villogas();
         //UgraloGomb ug = new UgraloGomb();
-        FenyujsagFrame ff = new FenyujsagFrame();
+        //FenyujsagFrame ff = new FenyujsagFrame();
     }
 }
